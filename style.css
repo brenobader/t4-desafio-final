@@ -1,0 +1,81 @@
+* {
+    margin: 02;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+        list-style: none;
+    }
+    .topo{
+        display: flex;
+        justify-content: space-between;
+        margin: 2% 6%; 
+    }
+    .banner{
+        background-image: url("fundo.png");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+        padding-top: 160px;
+        padding-left: 70px;
+        font-weight: 0.8;
+    }
+    .banner h1 {
+        font-size: 56px;
+        color: white;
+    }
+   .banner span {
+       font-size: 33px;
+       color:aliceblue;
+   }
+   .box img{
+    width: 220px;
+}
+.box{
+    display: inline-block;
+    width: 1000PX;
+    margin: 3% 20%;
+}
+footer{
+    background-color: rgb(240, 234, 234) ; 
+    height: 10vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center ;
+    margin-top: 5em;  
+}
+    
+    .basebord{
+    display: flex;
+    width:auto ;
+    }
+    
+    .box-footer{
+    padding-left:2vw ;
+    }
+    
+    
+    .basebord-menu{  
+    height:100%;
+    width: auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 4vw;
+    }
+     h6{
+    font-size:20px;
+    }
+    
+    .text-basebord{
+    width: 600px;
+    font-size:15px;
+    padding-left: 3rem;
+    color: black;
+    }
