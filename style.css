@@ -17,7 +17,7 @@
         margin: 2% 6%; 
     }
     .banner{
-        background-image: url("fundo.png");
+        background-image: url("img/fundo.png");
         background-size: cover;
         background-position: center;
         width: 100%;
